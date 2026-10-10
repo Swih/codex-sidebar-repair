@@ -1,0 +1,12 @@
+# Local state and recovery files must never be committed.
+*.sqlite*
+*.db*
+*.json
+!package.json
+*.tmp
+*.log
+*.zip
+.codex/
+sidebar-repair-backups/
+node_modules/
+work/

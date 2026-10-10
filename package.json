@@ -1,0 +1,9 @@
+{
+  "name": "codex-sidebar-repair",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unofficial Windows utility to restore missing local Codex sidebar project grouping",
+  "license": "MIT",
+  "engines": { "node": ">=24" },
+  "scripts": { "test": "node --test", "preview": "node repair-sidebar.cjs", "repair": "node repair-sidebar.cjs --apply" }
+}
